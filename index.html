@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncle Sam's escapades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1>UncSam</h1>
+    </header>
+<br />
+    <ol type="I">
+        <li>
+            Eat 🍔
+        </li>  
+        <li>
+            Sleep 😴
+        </li>
+        <li>
+            Code    💻
+        </li>
+        <li>
+            Data Science   📊
+        </li>
+        <li>
+            Machine Learning   🤖
+        </li>
+        <li>
+            Artificial Intelligence    🧠
+        </li>
+        <li>
+            Data Mining   ⛏️
+        </li>
+        <li>
+            No risk no Porsche   💰
+        </li>
+    </ol>    
+    <img class="img2" src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600"  width="350"  alt="webtech">
+    <hr>
+    <table border="4">
+        <tr>
+            <th> name </th>
+            <th> address </th>
+            <th> email </th>
+            <th> mobile </th>
+        </tr>  
+        <tr>
+            <td> Jane Doe </td>
+            <td> Fort Beaufort </td>
+            <td> jd@yahoo.com</td>
+            <td> 0839130096</td>
+        </tr>
+        <tr>
+            <td> John Doe </td>
+            <td> Transkei </td>
+            <td> jd@webmail.co.za</td>
+            <td> 0829120444</td>
+        </tr>
+        <tr>
+            <td> Baby Jake Doe</td>
+            <td> East London</td>
+            <td> bjd@gmail.com</td>
+            <td> 0800555555</td>
+        </tr>
+        <tr>
+            <td> Andrew Tart </td>
+            <td> Bethlehem</td>
+            <td> tart@yahoo.com/td>
+            <td> 0824689949</td>
+        </tr>
+        <tr>
+            <td> Elion mask </td>
+            <td> Mars </td>
+            <td> Elion@spcx.com </td>
+            <td> 0800 567 567</td>
+        </tr>
+    </table>
+    <br />
+    <button id="toggleButton" class="toggle-button"> click to fill form </button>
+    <div id="chero" class="collapsible">
+        <form>
+            <label for="name"> Name:</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <br />
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" placeholder="jd@webmail.co.za" required>
+            <br />
+            <label for="Password"> Password:</label>
+            <input type="Password" id="Password" name="Password" placeholder="Enter Password" required minlength="8">
+            <br />
+            <label for="DOB"> DOB:</label>
+            <input type="date" id="name" name="DOB" placeholder="dd/mm/yyyy" required>
+            <br />
+            <label for="Gender"> Gender:</label>
+            <label for="Male"> Male:</label>
+            <input type="radio" id="Male" name="Gender" value="Male" required>
+            <label for="Female"> Female:</label>
+            <input type="radio" id="Female" name="Gender" value="Female" required>
+            <label for="Other"> Other:</label>
+            <input type="radio" id="Other" name="Gender" value="Other" required>
+            <br />
+            <label for="Highest Qualification"> Highest Qualification:</label>
+            <select id="Highest Qualification" name="Highest Qualification" required>
+                <option value=""> --select Highest Qualification-- </option>
+                <option value="Doctoral Degree (PhD/DPhil/etc.)">Doctoral Degree (PhD/DPhil/etc.)</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="Postgraduate Diploma">Postgraduate Diploma</option>
+                <option value="Honours Degree">Honours Degree</option>
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Advanced Diploma">Advanced Diploma</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Higher Certificate">Higher Certificate</option>
+                <option value="National Senior Certificate (Matric)">National Senior Certificate (Matric)</option>
+            </select>
+            <br />
+            <label for="Select Modules"> Modules:</label>
+            <br />
+            <input type="checkbox" id="Data Science" name="Data Science" required> Data Science
+            <input type="checkbox" id="Machine Learning" name="Data Science"> Machine Learning
+            <input type="checkbox" id="Statistical Modelling" name="Data Science"> Statistical Modelling<br />
+            <input type="checkbox" id="Data Mining" name="Data Science"> Data Mining
+            <input type="checkbox" id="Big Data Analytics" name="Data Science"> Big Data Analytics
+            <input type="checkbox" id="Database Management" name="Data Science"> Database Management<br />
+            <input type="checkbox" id="Data Visualization" name="Data Science"> Data Visualization
+            <input type="checkbox" id="Programming for Data Science (Python/R)" name="Data Science"> Programming for Data Science (Python/R)
+            <input type="checkbox" id="Deep Learning" name="Data Science"> Deep Learning<br />
+            <input type="checkbox" id="Natural Language Processing (NLP)" name="Data Science"> Natural Language Processing (NLP)
+            <input type="checkbox" id="Time Series Analysis" name="Data Science"> Time Series Analysis
+            <input type="checkbox" id="Cloud Computing for Data Science" name="Data Science"> Cloud Computing for Data Science<br />
+            <input type="checkbox" id="Data Ethics and Governance" name="Data Science"> Data Ethics and Governance
+            <input type="checkbox" id="Optimization Techniques" name="Data Science"> Optimization Techniques
+            <br />
+            <button type="submit">Register </button>
+        </form>
+    </div>
+
+    <!-- Button to change text dynamically -->
+    <button id="textButton">Change Text</button>
+    <p id="dynamicText">This is the original text.</p>
+
+    <!-- Buttons to add or remove list items -->
+    <button id="addButton">Add Item</button>
+    <button id="removeButton">Remove Item</button>
+    <ul id="listContainer">
+        <li>Existing List Item</li>
+    </ul>
+</body>
+<script src="script.js"></script>
+</html>
